@@ -1,6 +1,6 @@
 # PD1_Aplikacje_internetowe
-**Nazwa projektu:** Strona internetowa organizacji `NETWATCH`
-**Opis:** Projekt jest stroną internetową fikcyjnej organizacji `NETWATCH` z uniwersum Cyberpunk, zajmującą się zwalczaniem cyberprzestępczości oraz utrzymywaniem Blackwalla w celu ochrony sieci przed sztuczną inteligencją.
+**Nazwa projektu:** Strona internetowa organizacji `NETWATCH`\
+**Opis:** Projekt jest stroną internetową fikcyjnej organizacji `NETWATCH` z uniwersum Cyberpunk, zajmującą się zwalczaniem cyberprzestępczości oraz utrzymywaniem Blackwalla w celu ochrony sieci przed sztuczną inteligencją. \
 **Użyte technologie:**
 * HTML5
 * CSS3
