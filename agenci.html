@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netwatch</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -58,22 +59,6 @@
     <footer>
         <p>&copy; 2077 Netwatch. Vos Videmus.</p>
     </footer>
-
-    <script>
-    function updateClock() {
-        const now = new Date();
-        const hours = String(now.getHours()).padStart(2, '0');
-        const minutes = String(now.getMinutes()).padStart(2, '0');
-        const seconds = String(now.getSeconds()).padStart(2, '0');
-        const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
-        
-        const clockElement = document.getElementById('clock');
-        if (clockElement) {
-            clockElement.textContent = `CZAS: ${hours}:${minutes}:${seconds}.${milliseconds}`;
-        }
-        requestAnimationFrame(updateClock);
-    }
-    requestAnimationFrame(updateClock);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
