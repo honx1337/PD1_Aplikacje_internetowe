@@ -14,6 +14,7 @@
             <div class="brand-text">
                 <h1>Netwatch</h1>
                 <p>Vos Videmus</p>
+                <div id="clock">00:00:00.000</div>
             </div>
         </div>
         <nav>
@@ -49,5 +50,21 @@
         <p>&copy; 2077 Netwatch. Vos Videmus.</p>
     </footer>
 
+    <script>
+    function updateClock() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
+        
+        const clockElement = document.getElementById('clock');
+        if (clockElement) {
+            clockElement.textContent = `CZAS: ${hours}:${minutes}:${seconds}.${milliseconds}`;
+        }
+        requestAnimationFrame(updateClock);
+    }
+    requestAnimationFrame(updateClock);
+    </script>
 </body>
 </html>

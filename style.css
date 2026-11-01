@@ -195,3 +195,14 @@ footer {
         justify-content: center;
     }
 }
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--heading-color);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(243, 230, 0, 0.5);
+}
